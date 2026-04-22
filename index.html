@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roundtable Events</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #F8FAFC;
+      color: #1E293B;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1934F5, #A855F7);
+      padding: 0 2rem;
+      height: 72px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+
+    .logo span {
+      color: #E8826D;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 3rem 3.5rem;
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #F3E8FF;
+      color: #7C3AED;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #1E293B;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #64748B;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #E2E8F0;
+      margin: 2rem 0;
+    }
+
+    .event-notice {
+      font-size: 0.875rem;
+      color: #64748B;
+      line-height: 1.6;
+    }
+
+    .event-notice strong {
+      color: #1E293B;
+      font-weight: 500;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #F0FDF4;
+      color: #065F46;
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.5rem 1.25rem;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10B981;
+      display: inline-block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.75rem;
+      color: #94A3B8;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 2rem 1.5rem;
+        border-radius: 16px;
+      }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Roundtable<span>.</span></div>
+  </header>
+
+  <main>
+    <div class="card">
+      <div class="badge">Coming Soon</div>
+      <h1>Peer-led discussions,<br>structured for impact.</h1>
+      <p class="tagline">
+        Roundtable Events is a platform for structured peer exchange at professional events. Delegates propose, join, and lead 45-minute facilitated discussions with others in their field.
+      </p>
+      <hr class="divider" />
+      <p class="event-notice">
+        Proudly supporting <strong>NHS ConfedExpo 2026</strong><br />
+        Manchester Central, 10 &amp; 11 June 2026
+      </p>
+      <div class="pill">
+        <span class="dot"></span>
+        Platform launching at NHS ConfedExpo 2026
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Roundtable Events &nbsp;&middot;&nbsp; contact@roundtable-events.co.uk
+  </footer>
+
+</body>
+</html>
